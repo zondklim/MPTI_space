@@ -8,7 +8,7 @@ import tarfile
 import pandas as pd
 
 """ 
-Данный файл исполняется командой: python -m luigi_test_full FinalReportTask --url 'https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE68849&format=file' --local-scheduler
+Данный файл исполняется командой: python -m data_pipeline_luigi FinalReportTask --url 'https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE68849&format=file' --local-scheduler
 где https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE68849&format=file - ссылка на исходный файл из задания
 """
 
